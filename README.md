@@ -12,6 +12,8 @@ Terraform deploys the following components:
 
 * Azure Virtual Network with 2 subnets
 * One Sophos-XGS-VM instance with 2 NICs (LAN and WAN)
+* The default network can be later used as a hub network in your environment the Addresses can be edited in the `variables.tf`
+
 
 ## Deployment
 
@@ -19,7 +21,9 @@ To deploy the FortiGate-VM to Azure:
 
 1. Clone the repository.
 2. Customize variables `variables.tf` file as needed.
-3. Initialize the providers and modules.
+      * default is a "byol" licensing. Change it, as you want
+      * Change the Name of the dns-name
+4. Initialize the providers and modules.
 
    ```sh
    cd XXXXX
