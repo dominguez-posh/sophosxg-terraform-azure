@@ -44,8 +44,9 @@ To deploy the FortiGate-VM to Azure:
 Output will include the information necessary to log in to the FortiGate-VM instances.
 To Show the admin Password type:
 
-terraform output -raw Password
-
+   ```sh
+   terraform output -raw Password
+   ```
 
 ## Destroy the instance
 
