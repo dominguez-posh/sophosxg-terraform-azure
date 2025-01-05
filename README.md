@@ -52,9 +52,6 @@ To Show the admin Password type:
    terraform output -raw Password
    ```
 
-![image](https://github.com/user-attachments/assets/1dd796d1-bf96-4900-90fd-9f42ce3e733a)
-
-![image](https://github.com/user-attachments/assets/0e5c7868-71e8-4dfe-a1f0-895a7ed0284a)
 
 
 ## Destroy the instance
@@ -64,4 +61,13 @@ To destroy the instance, use the command:
 ```sh
 terraform destroy
 ```
+
+##Results
+Terraform Output:
+![image](https://github.com/user-attachments/assets/1dd796d1-bf96-4900-90fd-9f42ce3e733a)
+
+Azure Resources:
+![image](https://github.com/user-attachments/assets/0e5c7868-71e8-4dfe-a1f0-895a7ed0284a)
+
+
 
