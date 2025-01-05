@@ -62,7 +62,7 @@ To destroy the instance, use the command:
 terraform destroy
 ```
 
-##Results
+## Results
 Terraform Output:
 ![image](https://github.com/user-attachments/assets/1dd796d1-bf96-4900-90fd-9f42ce3e733a)
 
